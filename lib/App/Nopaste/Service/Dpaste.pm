@@ -23,13 +23,13 @@ my $languages = {
     ruby       => 'Ruby',
     sql        => 'Sql',
     xml        => 'Xml',
-    q()        => 'Plain',
+    text       => q(),
 };
 
 sub fill_form {
     my( $self, $mech, %args ) = @_;
 
-    my $lang = $args{lang} || '';
+    my $lang = $args{lang} || 'text';
 
     $mech->submit_form(
         form_name => 'pasteform',
@@ -57,7 +57,7 @@ sub return {
     return (1, $link);
 }
 
-"Electric Wizard - I,The Witchfinder";
+1 && q[Electric Wizard - Return Trip];
 
 __END__
 
