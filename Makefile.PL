@@ -12,7 +12,6 @@ WriteMakefile(
     AUTHOR        => 'Sergey Romanov <sromanov@cpan.org>',
     PREREQ_PM     => {
         'App::Nopaste' => '0.91',
-        'Test::More'   => '0.47',
     },
     ( $mm >= 6.31
         ? ( LICENSE => 'artistic_2' )
@@ -31,6 +30,9 @@ WriteMakefile(
             META_ADD => {
                 build_requires     => {},
                 configure_requires => {},
+                test_requires      => {
+                    'Test::More'   => '0.47',
+                },
             },
         )
     ),
