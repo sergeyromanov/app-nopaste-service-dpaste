@@ -65,6 +65,10 @@ __END__
 
 App::Nopaste::Service::Dpaste - L<App::Nopaste> interface to L<http://dpaste.com>
 
+=head1 SYNOPSIS
+
+    nopaste -s Dpaste -l bash ~/.bashrc
+
 =head1 SEE ALSO
 
 L<App::Nopaste::Command> - command-line utility for L<App::Nopaste>
