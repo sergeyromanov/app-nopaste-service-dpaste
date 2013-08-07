@@ -1,9 +1,9 @@
-package App::Nopaste::Service::Dpaste;
+package App::Nopaste::Service::dpaste;
 
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base 'App::Nopaste::Service';
 
@@ -63,11 +63,11 @@ __END__
 
 =head1 NAME
 
-App::Nopaste::Service::Dpaste - L<App::Nopaste> interface to L<http://dpaste.com>
+App::Nopaste::Service::dpaste - L<App::Nopaste> interface to L<http://dpaste.com>
 
 =head1 SYNOPSIS
 
-    nopaste -s Dpaste -l bash ~/.bashrc
+    nopaste -s dpaste -l haskell foo_file.hs
 
 =head1 SEE ALSO
 

@@ -6,9 +6,9 @@ use ExtUtils::MakeMaker;
 my( $mm ) = $ExtUtils::MakeMaker::VERSION =~ /^([^_]+)/;
 
 WriteMakefile(
-    NAME          => 'App::Nopaste::Service::Dpaste',
-    VERSION_FROM  => 'lib/App/Nopaste/Service/Dpaste.pm',
-    ABSTRACT_FROM => 'lib/App/Nopaste/Service/Dpaste.pm',
+    NAME          => 'App::Nopaste::Service::dpaste',
+    VERSION_FROM  => 'lib/App/Nopaste/Service/dpaste.pm',
+    ABSTRACT_FROM => 'lib/App/Nopaste/Service/dpaste.pm',
     AUTHOR        => 'Sergey Romanov <sromanov@cpan.org>',
     PREREQ_PM     => {
         'App::Nopaste' => '0.91',

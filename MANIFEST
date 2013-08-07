@@ -3,4 +3,4 @@ Makefile.PL
 MANIFEST
 MANIFEST.SKIP
 t/00-load.t
-lib/App/Nopaste/Service/Dpaste.pm
+lib/App/Nopaste/Service/dpaste.pm

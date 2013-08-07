@@ -1,10 +1,10 @@
 =head1 NAME
 
-App::Nopaste::Service::Dpaste - L<App::Nopaste> interface to L<http://dpaste.com>
+App::Nopaste::Service::dpaste - L<App::Nopaste> interface to L<http://dpaste.com>
 
 =head1 SYNOPSIS
 
-    nopaste -s Dpaste -l bash ~/.bashrc
+    nopaste -s dpaste -l haskell foo_file.hs
 
 =head1 SEE ALSO
 
