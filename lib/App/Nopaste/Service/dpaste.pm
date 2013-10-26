@@ -60,6 +60,9 @@ sub return {
 1 && q[Electric Wizard - Return Trip];
 
 __END__
+=pod
+
+=encoding UTF-8
 
 =head1 NAME
 
