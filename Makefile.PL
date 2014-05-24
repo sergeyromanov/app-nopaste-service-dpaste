@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use ExtUtils::MakeMaker;
 
-my( $mm ) = $ExtUtils::MakeMaker::VERSION =~ /^([^_]+)/;
+my ($mm) = $ExtUtils::MakeMaker::VERSION =~ /^([^_]+)/;
 
 WriteMakefile(
     NAME          => 'App::Nopaste::Service::dpaste',
@@ -12,6 +12,7 @@ WriteMakefile(
     AUTHOR        => 'Sergey Romanov <sromanov@cpan.org>',
     PREREQ_PM     => {
         'App::Nopaste' => '0.91',
+        'JSON'         => '0',
     },
     ( $mm >= 6.31
         ? ( LICENSE => 'artistic_2' )
@@ -22,8 +23,8 @@ WriteMakefile(
         : ( META_MERGE => {
                 resources => {
                     license    => 'http://dev.perl.org/licenses/',
-                    repository => 'http://github.com/sergeyromanov/app-nopaste-service-dpaste',
-                    bugtracker => 'https://github.com/sergeyromanov/app-nopaste-service-dpaste/issues'
+                    repository => 'https://github.com/sergeyromanov/app-nopaste-service-dpaste',
+                    bugtracker => 'https://github.com/sergeyromanov/app-nopaste-service-dpaste/issues',
                 },
                 no_index => {directory => [qw/t/]},
             },
