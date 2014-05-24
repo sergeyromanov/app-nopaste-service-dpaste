@@ -5,7 +5,7 @@ use warnings;
 
 use JSON ();
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 our $SYNTAX_CHOICES_URL = 'http://dpaste.com/api/v2/syntax-choices/';
 
@@ -93,7 +93,7 @@ Sergey Romanov, C<sromanov@cpan.org>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2013 by Sergey Romanov.
+Copyright (C) 2014 by Sergey Romanov.
 
 This library is free software; you can redistribute it and/or modify
 it under the terms of the Artistic License version 2.0.
