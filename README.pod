@@ -1,3 +1,7 @@
+=pod
+
+=encoding UTF-8
+
 =head1 NAME
 
 App::Nopaste::Service::dpaste - L<App::Nopaste> interface to L<http://dpaste.com>
@@ -6,7 +10,14 @@ App::Nopaste::Service::dpaste - L<App::Nopaste> interface to L<http://dpaste.com
 
     nopaste -s dpaste -l haskell foo_file.hs
 
+=head1 DESCRIPTION
+
+This is an L<App::Nopaste> back-end for L<http://dpaste.com> pastebin.
+All pastes will be expired in 1 day.
+
 =head1 SEE ALSO
+
+L<http://dpaste.com/api/v2/syntax-choices/> - available syntax mappings
 
 L<App::Nopaste::Command> - command-line utility for L<App::Nopaste>
 
@@ -16,7 +27,7 @@ Sergey Romanov, C<sromanov@cpan.org>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2013 by Sergey Romanov.
+Copyright (C) 2013-2014 by Sergey Romanov.
 
 This library is free software; you can redistribute it and/or modify
 it under the terms of the Artistic License version 2.0.

@@ -93,7 +93,7 @@ Sergey Romanov, C<sromanov@cpan.org>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2014 by Sergey Romanov.
+Copyright (C) 2013-2014 by Sergey Romanov.
 
 This library is free software; you can redistribute it and/or modify
 it under the terms of the Artistic License version 2.0.
