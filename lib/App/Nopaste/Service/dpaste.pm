@@ -3,7 +3,7 @@ package App::Nopaste::Service::dpaste;
 use strict;
 use warnings;
 
-use JSON ();
+use JSON::MaybeXS ();
 
 our $VERSION = '0.03';
 
@@ -50,7 +50,7 @@ sub get_syntax_map {
 
     $mech->back();
 
-    return JSON->new->decode($res->content());
+    return JSON::MaybeXS->new->decode($res->content());
 }
 
 sub return {

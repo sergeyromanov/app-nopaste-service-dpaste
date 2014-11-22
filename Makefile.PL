@@ -11,8 +11,8 @@ WriteMakefile(
     ABSTRACT_FROM => 'lib/App/Nopaste/Service/dpaste.pm',
     AUTHOR        => 'Sergey Romanov <sromanov@cpan.org>',
     PREREQ_PM     => {
-        'App::Nopaste' => '0.91',
-        'JSON'         => '0',
+        'App::Nopaste'  => '0.91',
+        'JSON::MaybeXS' => '0',
     },
     ( $mm >= 6.31
         ? ( LICENSE => 'artistic_2' )
